@@ -1,11 +1,76 @@
+/* General styles */
 
-body{font-family:Arial,sans-serif;background:#f6eee4;margin:0}
-header{background:#2a1f14;color:white;padding:20px;text-align:center}
-nav ul{list-style:none;padding:0;margin:0;text-align:center}
-nav li{display:inline-block;margin:0 10px}
-nav a{color:white;text-decoration:none}
-main{padding:20px}
-footer{background:#2a1f14;color:white;text-align:center;padding:10px;overflow:auto}
-.copyright{float:left;width:65%}
-.social{float:right;width:25%}
-.social img{display:inline-block;padding:4%;width:32px}
+body {
+    background-color: #f6eee4;
+    font-family: 'Lora', serif;
+    margin: 0;
+}
+
+img, video {
+    max-width: 100%;
+    display: block;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #2a1f14;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    border-top: 1px solid #f6eee4;
+}
+
+nav li a {
+    display: block;
+    color: #f6eee4;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Main */
+
+main {
+    padding: 2%;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main p {
+    font-size: 1.2em;
+}
+
+/* Image */
+
+.round {
+    border-radius: 6px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #2a1f14;
+    color: #f6eee4;
+    padding: 1% 0;
+}
+
+footer a {
+    color: #f3e6d8;
+    text-decoration: none;
+}
+
+/* Social icons */
+
+.social img {
+    display: inline-block;
+    padding: 4%;
+    width: 32px;
+}
