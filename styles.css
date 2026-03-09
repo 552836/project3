@@ -1,0 +1,11 @@
+
+body{font-family:Arial,sans-serif;background:#f6eee4;margin:0}
+header{background:#2a1f14;color:white;padding:20px;text-align:center}
+nav ul{list-style:none;padding:0;margin:0;text-align:center}
+nav li{display:inline-block;margin:0 10px}
+nav a{color:white;text-decoration:none}
+main{padding:20px}
+footer{background:#2a1f14;color:white;text-align:center;padding:10px;overflow:auto}
+.copyright{float:left;width:65%}
+.social{float:right;width:25%}
+.social img{display:inline-block;padding:4%;width:32px}
